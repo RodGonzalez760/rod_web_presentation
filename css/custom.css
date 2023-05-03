@@ -1,12 +1,18 @@
 body {
-    background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #004e92, #000428);  
-background: linear-gradient(to right, #004e92, #000428); 
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
 }
+
 header {
     margin: 30px 0;
 }
-.contenido {
+
+/* .contenido {
     padding:20px;
 }
 .contenido-principal {
@@ -23,16 +29,49 @@ header {
 }
 #gastos {
     margin-bottom: 30px;
-}
-h1{
-    font-family: 'Raleway', sans-serif;
+} */
+h1 {
+    /* font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    color: white;
+    color: white; */
+
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 2rem;
 }
+
 h2 {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    color:#004e92;
+    color: #004e92;
     font-size: 22px;
-    margin-bottom:30px;
+    margin-bottom: 30px; */
+    color: #d1d1e0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.card {
+    background-color: #212529;
+    color: #FFFFFF;
+}
+
+.card-header {
+    background-color: #6C757D;
+    color: #FFFFFF;
+}
+
+.card-body {
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #24292e;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer a {
+    color: #d1d1e0;
 }
