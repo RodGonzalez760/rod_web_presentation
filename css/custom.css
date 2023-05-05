@@ -6,6 +6,7 @@ body {
 
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
+    max-width: 99%;
 }
 
 header {
@@ -28,6 +29,7 @@ h2 {
 .card {
     background-color: #212529;
     color: #FFFFFF;
+
 }
 
 .card-header {
@@ -49,14 +51,6 @@ h2 {
     color: #d1d1e0;
 }
 
-.contenedor_filtros {
-    display: flex;
-}
-
 #navbarNav {
     transition: height .3s linear;
 }
-
-/* .mostrar {
-    height: 196px;
-} */
