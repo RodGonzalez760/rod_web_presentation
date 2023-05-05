@@ -48,3 +48,15 @@ h2 {
 .footer a {
     color: #d1d1e0;
 }
+
+.contenedor_filtros {
+    display: flex;
+}
+
+#navbarNav {
+    transition: height .3s linear;
+}
+
+/* .mostrar {
+    height: 196px;
+} */
