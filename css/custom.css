@@ -51,6 +51,20 @@ h2 {
     color: #d1d1e0;
 }
 
+.margen_seccion {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centrado{
+    justify-content: center;
+    display: flex;
+}
+
 #navbarNav {
     transition: height .3s linear;
 }
