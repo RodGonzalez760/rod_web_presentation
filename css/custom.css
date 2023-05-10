@@ -68,3 +68,12 @@ h2 {
 #navbarNav {
     transition: height .3s linear;
 }
+
+.btn_repo {
+    display: block; 
+    color: white;
+    background-color: #6B80EB;
+}
+.btn_proyect {
+    display: block; 
+}
